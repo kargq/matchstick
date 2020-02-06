@@ -14,3 +14,26 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Web Support 
+
+To make flutter work with web support: -
+
+```
+ flutter channel beta
+ flutter upgrade
+ flutter config --enable-web
+ ```
+
+ Check if this worked by doing
+
+ ```
+ flutter devices
+ ```
+ Chrome should be listed as a device. (Also, yes, need chrome installed)
+
+ Then, from project directory: -
+
+ ```
+ flutter run -d chrome
+ ```
